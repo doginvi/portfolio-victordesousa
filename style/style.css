@@ -109,9 +109,9 @@ main.works section {
 	border-bottom: 1px solid #E0E0E0;
 	padding: 2.8vw 0 2.7vw 0;
 }
+
 main.works section:last-child {
 	border: none
-	
 }
 
 
@@ -155,13 +155,82 @@ section.banner p{
 }
 
 section.banner button{
-	background-color: #FF6464;
-	font-size: 1.2rem;
+	background-color: #FF6464;15px
+	font-size: 1.4rem;
 	color: white;
 	border: 0;
 	border-radius: 3.5px;
 	padding: 1vw;
 }
+
+
+section.rc-posts {
+	background-color: #edf7fa;
+	padding: 4vw 8vw 4vw 8vw;
+}
+
+section.rc-posts h2 {
+	font-size: 1.6rem;
+	margin: 1vw 0 1.3vw 0;
+}
+
+section.rc-posts ul {
+	display: flex;
+}
+section.rc-posts ul li {
+	background: white;
+	margin: 0 0 0 2vw;
+	padding: 3vw 1vw 3vw 1vw;
+}
+
+section.rc-posts ul li:first-child {
+	margin: 0 0 0 0;
+}
+
+section.rc-posts ul li h3 {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+section.rc-posts ul li p {
+	margin: 1.0vw 0 1.0vw 0;
+}
+
+section.ft-works h2{
+	font-size: 2vw;
+}
+
+section.ft-works >div {
+	display: flex;
+	margin: 2.5vw 0 0 0;
+}
+
+section.ft-works >div >div h3 {
+	font-size: 1.3vw;
+	font-weight: bold;
+	margin: 1vw 0 1vw 0;
+}
+
+section.ft-works >div >div h4 {
+	font-size: 20px;
+	margin: 0 0 0.9vw 0;
+}
+
+
+section.ft-works >div >div h4 span.ano {
+	background-color: #142850;
+	color: white;
+	border-radius: 16px;
+	margin: 1px 7px 1px 7px;
+	font-weight: bold;
+}
+
+section.ft-works >div >div p {
+	font-size: 16px;
+	margin: 10px 0 0 0;
+}
+
+
 
 /*
 =======================================================
